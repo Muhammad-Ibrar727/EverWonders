@@ -32,7 +32,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url('assets/images/destination-image/cappadocia.webp');
+            background-image: url('assets/images/uploads/cappadocia.webp');
           
             background-repeat: no-repeat;
             background-attachment: fixed;
