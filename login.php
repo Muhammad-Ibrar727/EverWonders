@@ -5,7 +5,7 @@ session_start();
 $is_invalid = false;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    require_once('server.php'); 
+    require_once('php_files/server.php'); 
     
     $sql = sprintf("SELECT * FROM users WHERE email = '%s'", $connections->real_escape_string($_POST['email']));
     $result = $connections->query($sql);
