@@ -112,6 +112,68 @@
 
 <br><br><br>
 
+<!-- features destination section  -->
+<section id="destinations" class="featured-destinations">
+
+<?php
+require_once('php_files/server.php');
+$query = "select * from destinations";
+$destinations = mysqli_query($connections,$query);
+?>
+    <h2>Featured Destinations</h2>
+    <h3>Embark on a Journey to the Most Breathtaking Places Around the World</h3>
+    
+    <br><br>
+    <div class="destination-grid">
+        <?php
+      while($dest=mysqli_fetch_assoc($destinations))
+      {
+      
+        echo"<div class='tour-card'>
+            <div class='image-container'>
+                <img class='tour-image' src='assets/images/uploads/".$dest['d_pic']."'>
+                <div class='details'>
+                    <h3 class='tour-title'>".$dest['d_title']."</h3>
+                    <p>".$dest['d_desc']."</p>
+                </div>
+            </div>
+            <div class='tour-info'>
+                <div class='tour-rating'>
+                    <ul class='stars'>
+                        <li class='star filled'>&#9733;</li>
+                        <li class='star filled'>&#9733;</li>
+                        <li class='star filled'>&#9733;</li>
+                        <li class='star filled'>&#9733;</li>
+                        <li class='star'>&#9733;</li>
+                    </ul>
+                    <span class='review-count'>".$dest['d_reviews']."</span>
+                </div>
+                <p class='tour-price'>".$dest['d_price']."</p>
+                <div class='tour-features'>
+                    <div class='feature-item'>
+                       <span class='feature-icon'><i class='fa-solid fa-truck-plane'></i></span>
+                        <span class='feature-text'>Transportation Included</span>
+                    </div>
+
+                    
+                    
+                    <div class='feature-item'>
+                        <span class='feature-icon'><i class='fa-solid fa-plane-slash'></i></span>
+                        <span class='feature-text'>Free Cancellation</span>
+                    </div>
+                </div>
+                <a class='book-now' href='detail.php?tour_id=". $dest['d_id'] ."'>Read More</a>
+
+            </div>
+        </div>";
+      }
+        ?>
+    
+    </div>
+   
+    <div class="more-destinations"><a href="">More Destinations</a></div>
+</section>
+
    
 
 
