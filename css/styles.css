@@ -193,7 +193,7 @@ body {
 .slider {
     display: flex;
     width: 250%; 
-    transition: transform 0.7s ease; /* Smooth transition for carousel effect */
+    transition: transform 0.7s ease; 
 }
 
 .slide {
@@ -313,7 +313,7 @@ body {
 /* cta buttons */
 .cta-buttons {
     position: absolute;
-    bottom: 200px; /* Adjust as needed */
+    bottom: 200px; 
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
