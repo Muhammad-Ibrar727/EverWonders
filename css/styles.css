@@ -348,3 +348,258 @@ body {
     background-color: #ff6f61
 }
 
+
+/* Styles for Featured Destinations */
+.featured-destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-destinations h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ff6f61;
+}
+
+.destination-grid {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+    /* grid-template-columns: repeat(auto-fit, minmax(260px, 2fr)); */
+    grid-gap: 20px; 
+}
+
+.destination {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  
+}
+
+.destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.destination:hover img {
+    transform: scale(1.17);
+}
+
+.details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.destination:hover .details {
+    opacity: 1;
+}
+
+.details h3, .details p {
+    margin: 4px 30px;
+    padding: 0;
+}
+
+.more-destinations-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.more-destinations-btn:hover {
+    background-color: #e65649;
+}
+
+/* destination link */
+.more-destinations{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.more-destinations:hover {
+    background-color: #e65649;
+}
+.more-destinations a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* more-detail card */
+.tour-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 300px;
+    height: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.tour-image {
+    width: 100%;
+    height: 13rem;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .tour-image {
+    transform: scale(1.17);
+}
+
+.details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /*Semi-transparent background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 16px; 
+    border-radius: 10px 10px 0 0; 
+}
+
+.image-container:hover .details {
+    opacity: 1;
+}
+
+.details h3, .details p {
+    margin: 4px 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.details h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 1em;
+}
+
+.tour-info {
+    padding: 16px;
+    text-align: center;
+}
+
+.stars {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.star {
+    color: #ccc; 
+    font-size: 1.5em;
+    margin: 0 2px;
+}
+
+.star.filled {
+    color: #f90; 
+}
+
+.review-count {
+    margin-left: 8px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.tour-price {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.tour-features {
+    font-size: 0.9em;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #777;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.feature-icon {
+    font-size: 1.5em;
+    margin-right: 5px;
+    color: #4CAF50;
+}
+
+.feature-text {
+    font-size: 1em;
+    color: #777;
+}
+
+.book-now {
+    width:155px;
+    display: inline-block;
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; 
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: 10px;
+}
+.book-now {
+    text-decoration: none;
+}
+.book-now:hover {
+    background-color: #ff4b4b;
+    /* transform: translateY(-2px); */
+}
