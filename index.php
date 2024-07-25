@@ -131,7 +131,7 @@ $destinations = mysqli_query($connections,$query);
       
         echo"<div class='tour-card'>
             <div class='image-container'>
-                <img class='tour-image' src='assets/images/uploads/".$dest['d_pic']."'>
+                <img class='tour-image' src='assets/images/dest-images/".$dest['d_pic']."'>
                 <div class='details'>
                     <h3 class='tour-title'>".$dest['d_title']."</h3>
                     <p>".$dest['d_desc']."</p>
