@@ -174,6 +174,77 @@ $destinations = mysqli_query($connections,$query);
     <div class="more-destinations"><a href="">More Destinations</a></div>
 </section>
 
+ <!-- special offers  -->
+ <br><br><br>
+    
+
+    <section id="special-offers" class="special-offers">
+        <h2>Special Offers</h2>
+        <h3>Grab These Exclusive Deals Before They're Gone!</h3>
+        <br><br>
+        <div class="offer-carousel">
+            <div class="offer-cards">
+                <div class="offer-card">
+                    <img src="assets/images/special-offers/australia.jpg" alt="Offer 1">
+                    <div class="offer-details">
+                        <h3>50% Off on Australia Trip</h3>
+                        <p>Enjoy a luxurious stay at Australia with a 50% discount. Limited time offer!</p>
+                        <button class="btn">Book Now</button>
+
+                    </div>
+                </div>
+
+                
+
+                <div class="offer-card">
+                    <img src="assets/images/special-offers/china(1).jpg" alt="Offer 2">
+                    <div class="offer-details">
+                        <h3>Save $200 on china Tour</h3>
+                        <p>Book now and save $200 on your next China tour.</p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <img src="assets/images/special-offers/effile-tower.jpg" alt="Offer 3">
+                    <div class="offer-details">
+                        <h3>25% Off on Effile Tower</h3>
+                        <p>Experience the adventure of a lifetime in France with a 25% discount.</p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <img src="assets/images/special-offers/waterfall.jpg" alt="Offer 3">
+                    <div class="offer-details">
+                        <h3>25% Off on Thailand Adventure</h3>
+                        <p>Experience the adventure of a lifetime in Thailand with a 25% discount.</p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="offer-card">
+                    <img src="assets/images/special-offers/chocolate-hills.jpg" alt="Offer 3">
+                    <div class="offer-details">
+                        <h3>Save 320$ on Chocolate Hills</h3>
+                        <p>Experience the adventure and Save 320$ now.</p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+                
+                <div class="offer-card">
+                    <img src="assets/images/special-offers/morroco.jpg" alt="Offer 3">
+                    <div class="offer-details">
+                        <h3>50% Off on Morroco Tour</h3>
+                        <p>Experience the adventure of a lifetime in Morrocco with a 50% discount.</p>
+                        <button class="btn">Book Now</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        
+    </section>
    
 
 
