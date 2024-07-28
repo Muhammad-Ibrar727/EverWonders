@@ -246,7 +246,60 @@ $destinations = mysqli_query($connections,$query);
         
     </section>
    
+    
+    <br><br><br>
 
+
+    
+<!-- travel guide preview -->
+
+   <section id="travel-guide" class="travel-guides-preview">
+   <h2>Travel Guides Preview</h2>
+   <div class="article-grid">
+       <a href="#" class="article">
+           <img src="assets/images/previews-images/pichacu.jpg" alt="Machu Picchu">
+           <div class="article-details">
+               <h3>Exploring the Wonders of Machu Picchu</h3>
+               <p>Discover the ancient ruins and breathtaking landscapes of Machu Picchu.</p>
+           </div>
+       </a>
+       <a href="#" class="article">
+           <img src="assets/images/previews-images/city of light.jpg" alt="Paris Getaway">
+           <div class="article-details">
+               <h3>A Weekend Getaway to Paris</h3>
+               <p>Experience the romance and charm of the City of Light in just two days.</p>
+           </div>
+       </a>
+       <a href="#" class="article">
+           <img src="assets/images/previews-images/inca trail.jpg" alt="Inca Trail">
+           <div class="article-details">
+               <h3>Hiking the Inca Trail: A Journey to Remember</h3>
+               <p>Embark on an unforgettable trek through the Andes to reach the ancient city of Machu Picchu.</p>
+           </div>
+       </a>
+       <a href="#" class="article">
+           <img src="assets/images/previews-images/tokyo-city.jpg" alt="Tokyo Adventure">
+           <div class="article-details">
+               <h3>Tokyo Adventure: The Ultimate Travel Guide</h3>
+               <p>Explore the vibrant streets, traditional temples, and modern marvels of Tokyo.</p>
+           </div>
+       </a>
+       <a href="#" class="article">
+           <img src="assets/images/previews-images/safari-in-africa.jpg" alt="Safari in Africa">
+           <div class="article-details">
+               <h3>Safari in Africa: A Wildlife Experience</h3>
+               <p>Get up close with the Big Five and experience the wild beauty of Africa.</p>
+           </div>
+       </a>
+       <a href="#" class="article">
+           <img src="assets/images/previews-images/new-york-city.jpg" alt="New York Highlights">
+           <div class="article-details">
+               <h3>New York City Highlights</h3>
+               <p>Discover the iconic landmarks, hidden gems, and vibrant culture of NYC.</p>
+           </div>
+       </a>
+   </div>
+   </section>
 
    <script src="js/javascript.js"></script>
 
