@@ -12,9 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
-        .name{
-
-        }
+   
     </style>
 </head>
 
@@ -47,9 +45,10 @@
         </div>
     </header>
 
+    //getting data from local database
     <?php 
-include 'server.php';
-if (isset($_GET['tour_id'])) {
+    include 'server.php';
+    if (isset($_GET['tour_id'])) {
     $tour_id = $_GET['tour_id'];
 
     
@@ -80,8 +79,7 @@ if (isset($_GET['tour_id'])) {
             <h2>
                 More Places
             </h2>
-            
-
+    
         </div>
 
 
