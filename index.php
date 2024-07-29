@@ -301,6 +301,35 @@ $destinations = mysqli_query($connections,$query);
    </div>
    </section>
 
+   
+   <br><br><br>
+
+
+<!-- About Us Section -->
+
+
+<section id="aboutus" class="about-us">
+<h2>About Us</h2>
+<div class="about-content">
+    <div class="about-image">
+        <img src="assets/images/logo.jpeg" alt="About Us">
+    </div>
+    <div class="about-text">
+        <p>Welcome to EverWonders, your number one source for all things travel. We're dedicated to providing you the very best in travel planning, with an emphasis on discovering new destinations, offering the best travel deals, and providing top-notch customer service.</p>
+        
+        <p>Founded in 2024, EverWonders has come a long way from its beginnings. When we first started out, our passion for travel drove us to start this website to help fellow travelers find the best deals and destinations. Now, we serve customers all over the world, and are thrilled to be a part of the travel industry.</p>
+        
+        <p>Our mission is to make travel easy and accessible for everyone. Whether you're looking for adventure, relaxation, or a mix of both, we've got you covered. Our team of travel experts is always here to help you plan the perfect trip.</p>
+        
+        <p>We hope you enjoy our services as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+        
+        <p>Sincerely,<br>
+        Muhammad Ibrar<br>
+        Founder & CEO, EverWonders</p>
+    </div>
+</div>
+</section>
+
    <script src="js/javascript.js"></script>
 
 
