@@ -330,6 +330,12 @@ $destinations = mysqli_query($connections,$query);
 </div>
 </section>
 
+
+//included the file process.php
+<?php
+include'php_files/process.php';
+?>
+
    <script src="js/javascript.js"></script>
 
 
