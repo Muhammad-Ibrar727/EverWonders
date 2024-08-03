@@ -336,6 +336,37 @@ $destinations = mysqli_query($connections,$query);
 include'php_files/process.php';
 ?>
 
+
+<!-- Contact Us Section -->
+<section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Please fill out the form below and we'll get in touch with you shortly.</p>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h3>Our Address</h3>
+            <p>123 Travel Road, Wanderlust City, Earth</p>
+            <h3>Email</h3>
+            <p><a href="mailto:info@everwonders.com">info@everwonders.com</a></p>
+            <h3>Phone</h3>
+            <p><a href="tel:+1234567890">+923 430 914553</a></p>
+        </div>
+        <div class="contact-form">
+            <form action="php_files/contact-us.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
    <script src="js/javascript.js"></script>
 
 
