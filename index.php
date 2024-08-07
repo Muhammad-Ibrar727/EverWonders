@@ -390,6 +390,11 @@ include'php_files/process.php';
     </div>
 </section>
 
+    <!-- footer section -->
+    <?php 
+    include "php_files/footer.php";
+    ?>
+
    <script src="js/javascript.js"></script>
 
 
