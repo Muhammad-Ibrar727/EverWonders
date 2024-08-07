@@ -367,6 +367,29 @@ include'php_files/process.php';
     </div>
 </section>
 
+<br><br><br>
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <img src="assets/images/client-images/client1.webp" alt="Customer 1" class="testimonial-img">
+            <p>"Ever Wonders made my trip to Thailand unforgettable! The guided tours and attention to detail were exceptional."</p>
+            <h3>- Emma </h3>
+        </div>
+        <div class="testimonial-card">
+            <img src="assets/images/client-images/client2.jpg" alt="Customer 2" class="testimonial-img">
+            <p>"I had the best vacation of my life in Switzerland thanks to Ever Wonders. Highly recommended!"</p>
+            <h3>- Jane Smith</h3>
+        </div>
+        <div class="testimonial-card">
+            <img src="assets/images/client-images/client3.jpg" alt="Customer 3" class="testimonial-img">
+            <p>"Booking with Ever Wonders was seamless, and their customer service was top-notch. Can't wait for my next trip!"</p>
+            <h3>- Mark Wilson</h3>
+        </div>
+    </div>
+</section>
+
    <script src="js/javascript.js"></script>
 
 
