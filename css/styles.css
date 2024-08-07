@@ -902,3 +902,52 @@ body {
     background-color: #e65649;
 }
 
+
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;    
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.testimonial-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.testimonial-card h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
